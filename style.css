@@ -1,0 +1,32 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.container-fluid{
+    background-color:rgb(88, 79, 79);
+    color: white;
+    font-size: 20px;
+    display: flex;
+}
+img{
+    width: 550px;
+    height:550px
+    object-fit: cover;
+    vertical-align: middle;
+
+}
+.wrapper{
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
+}
+.intro{
+    flex: 1;
+   color: white;
+}
